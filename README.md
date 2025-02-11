@@ -59,3 +59,41 @@
 ---
 
 🔥 **加油！让我们一起构建一个安全可靠的 DeFi 存款合约！** 🚀
+
+
+
+# Truffle 项目部署步骤
+
+## 1. 安装 Truffle
+```bash
+npm install -g truffle
+```
+
+## 2. 初始化项目
+```bash
+truffle init
+```
+
+## 3. 编写合约
+在 `contracts/DefiDeposit.sol` 文件中编写合约代码。
+
+## 4. 编写部署脚本
+在 `migrations/2_deploy_contracts.js` 文件中编写合约部署脚本。
+
+## 5. 编写测试
+在 `test/DefiDeposit.test.js` 文件中编写合约的测试代码。
+
+## 6. 本地部署
+```bash
+truffle migrate --reset
+```
+
+## 7. 测试网部署
+```bash
+truffle migrate --network sepolia --reset
+```
+
+## 8. 交互测试
+```bash
+truffle console --network sepolia
+```
