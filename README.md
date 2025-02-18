@@ -98,8 +98,16 @@ truffle migrate --network sepolia --reset
 truffle console --network sepolia
 ```
 
+# 验证合约
+```bash
+truffle run verify DefiDeposit --network sepolia
+```
+
 # 作业提交
 
 ## 1. 测试网合约地址
 
 https://sepolia.etherscan.io/address/0x456E279e32Fd1c39f96555333B26e2c593eC6017#code
+
+
+0x0D08767fb5f2aBB7830534278127B6E6dDF4fc23
